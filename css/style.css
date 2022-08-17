@@ -1,0 +1,32 @@
+.item
+{
+    cursor: pointer;
+    position: relative;
+}
+.caption
+{
+    position: absolute;
+    width: 80%;
+    bottom:20px;
+    left: 10%;
+    text-align: center;
+    background-color: #ffffff;
+}
+.lightContainer
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0,0.5);
+
+}
+.lightItem
+{
+    width: 45%;
+    height: 500px;
+    background-image: url('../images/portfolio-1.jpg');
+    background-size:100% 100%;
+    font-size: 20px;
+}
